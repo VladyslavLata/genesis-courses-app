@@ -6,7 +6,6 @@ export const SharedLayuot = () => {
     <>
       <main>
         <Container>
-          <p>asdsad</p>
           <Outlet />
         </Container>
       </main>
