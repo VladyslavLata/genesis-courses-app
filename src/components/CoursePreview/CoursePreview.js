@@ -58,6 +58,7 @@ export const CoursePreview = ({ course }) => {
         width={200}
         height={200}
       /> */}
+        {/* <div></div> */}
       </div>
     </>
   );
