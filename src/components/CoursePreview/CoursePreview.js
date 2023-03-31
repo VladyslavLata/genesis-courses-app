@@ -29,11 +29,7 @@ export const CoursePreview = ({ course }) => {
               'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'
             }
             // src={meta.courseVideoPreview?.link}
-          >
-            {/* <source src={meta.courseVideoPreview?.link} type="video/mp4" />
-        <source src={meta.courseVideoPreview?.link} type="video/m3u" />
-        <source src={meta.courseVideoPreview?.link} type="video/ogg" /> */}
-          </video>
+          ></video>
         </div>
 
         <div className={styles['footer-course']}>
@@ -53,12 +49,6 @@ export const CoursePreview = ({ course }) => {
             ))}
           </ul>
         </div>
-        {/* <ReactPlayer
-        url={meta.courseVideoPreview?.link}
-        width={200}
-        height={200}
-      /> */}
-        {/* <div></div> */}
       </div>
     </>
   );
